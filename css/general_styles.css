@@ -1,0 +1,229 @@
+header h1 {
+ font-size: 2rem;
+}
+
+h3 {
+    color: greenyellow;
+    margin-top: 1rem;
+}
+
+h4 {
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+
+h5 {
+    color: greenyellow;
+    margin-top: 0.5rem;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+.head_left p {
+    margin-top: 0rem;
+}
+
+img {
+    max-width: 100%;
+    /* height: auto; */
+    border-radius: 0.3rem;
+}
+
+ul {
+    margin-top: 1rem;
+}
+
+ul li {
+    padding: 0.5rem 0;
+    margin-left: 1.5rem;
+    list-style-type: circle;
+}
+
+ul ul li {
+    list-style-type: square;
+}
+
+ol {
+    margin-top: 1rem;
+}
+
+ol li {
+    padding: 0.5rem 0;
+    margin-left: 1.5rem;
+}
+
+table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: 0.8rem;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: var(--para_bg);
+}
+
+blockquote {
+    font-style: italic; 
+    border-left: 3px solid greenyellow; 
+    padding: 0.5rem; 
+    margin-left: 0;
+    background: var(--para_color);
+}
+
+
+
+/* Quiz styles */
+.actions {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+.action {
+    background: linear-gradient(to right, #BED1EF, #DFEBFA);
+    color: #000;
+    padding:  1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #BED1EF;
+}
+
+.previous {
+    background: linear-gradient(to right, #E2FAC0, #F1F8E5);
+    border: 1px solid #E2FAC0;
+}
+
+.leaders {
+    background: linear-gradient(to right, #E5CFFF, #F1E4FD);
+    border: 1px solid #E5CFFF;
+}
+
+.action .topic {
+    color: #7925d3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+
+.action h3{
+    color: #000;
+}
+
+.action p{
+    margin-bottom: 0.5rem;
+}
+
+.action a{
+    color: blue;
+}
+
+
+.quiz-countdown {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quiz-countdown span{
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+
+.quiz-question {
+    background: #140524;
+    padding: 1rem 2rem;
+}
+
+.quiz-question p {
+    margin: 0 0 1rem 0;
+    text-align: center;
+    background: white;
+    color: #140524;
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+.quiz-question button {
+    border: none;
+    margin: 1rem 0;
+    width: 100%;
+    padding: 0.5rem;
+    background: #7925d3;
+    color: white;
+    cursor: pointer;
+}
+
+#quiz-form {
+    
+
+}
+
+
+/* .options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+#options label {
+    display: block
+} */
+
+#quiz-timer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#quiz-timer span {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    header h1 {
+ font-size: 2.6rem;
+}
+    table {
+      font-size: 1rem;
+}
+
+
+.actions {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.quiz-countdown span{
+    font-size: 5rem;
+}
+}

@@ -1,0 +1,301 @@
+  <div class="quiz">
+    <h2>🧪 Quiz: Test Your Understanding</h2>
+    <ol>
+      <li>Why was CSS introduced?<br>
+        A. To replace HTML<br>
+        B. To add animations<br>
+        C. To simplify styling and layout<br>
+        D. To store images
+      </li><br>
+
+      <li>Which tag was originally used in HTML 3.2 to control font appearance?<br>
+        A. <code>&lt;style&gt;</code><br>
+        B. <code>&lt;color&gt;</code><br>
+        C. <code>&lt;font&gt;</code><br>
+        D. <code>&lt;text&gt;</code>
+      </li><br>
+
+      <li>What is the benefit of using an external CSS file?<br>
+        A. Faster HTML loading<br>
+        B. You can write JavaScript in it<br>
+        C. Centralized style management<br>
+        D. HTML becomes invisible
+      </li>
+    </ol>
+
+    <h3>✅ Answers:</h3>
+    <ul>
+      <li>1 → C. To simplify styling and layout</li>
+      <li>2 → C. <code>&lt;font&gt;</code></li>
+      <li>3 → C. Centralized style management</li>
+    </ul>
+  </div>
+
+
+
+   <div class="quiz">
+    <h2>🧪 Quiz: Test Your Understanding</h2>
+    <ol>
+      <li>Which CSS method is most reusable across multiple pages?<br>
+        A. Inline<br>
+        B. External<br>
+        C. Internal<br>
+        D. Embedded
+      </li><br>
+
+      <li>Where is internal CSS placed?<br>
+        A. In a .css file<br>
+        B. Inside the body<br>
+        C. Inside the &lt;head&gt; in a &lt;style&gt; tag<br>
+        D. Inside each &lt;p&gt; tag
+      </li><br>
+
+      <li>True or False: Inline styles are ideal for managing a large website’s design.</li>
+    </ol>
+
+    <h3>✅ Answers:</h3>
+    <ul>
+      <li>1 → B. External</li>
+      <li>2 → C. Inside the <code>&lt;head&gt;</code> in a <code>&lt;style&gt;</code> tag</li>
+      <li>3 → False</li>
+    </ul>
+  </div>
+
+
+
+   <div class="quiz">
+    <h2>🧪 Quiz: Test Your Understanding</h2>
+    <ol>
+      <li>Which part of a CSS rule determines *what* is being styled?<br>
+        A. Declaration<br>
+        B. Selector<br>
+        C. Property<br>
+        D. Value
+      </li><br>
+
+      <li>In <code>color: red;</code>, what is <code>red</code>?<br>
+        A. Selector<br>
+        B. Property<br>
+        C. Value<br>
+        D. Attribute
+      </li><br>
+
+      <li>What separates one declaration from another?<br>
+        A. Comma (,)<br>
+        B. Hyphen (-)<br>
+        C. Colon (:)<br>
+        D. Semicolon (;)
+      </li>
+    </ol>
+
+    <h3>✅ Answers:</h3>
+    <ul>
+      <li>1 → B. Selector</li>
+      <li>2 → C. Value</li>
+      <li>3 → D. Semicolon (;)</li>
+    </ul>
+  </div>
+
+
+   <div class="quiz">
+    <h2>🧪 Quiz: Test Your Understanding</h2>
+    <ol>
+      <li>What symbol is used for an ID selector?<br>
+        A. . (dot)<br>
+        B. # (hash)<br>
+        C. * (asterisk)<br>
+        D. @ (at)
+      </li><br>
+
+      <li>What does the universal selector do?<br>
+        A. Targets only the body tag<br>
+        B. Targets all elements<br>
+        C. Targets specific IDs<br>
+        D. Targets comments only
+      </li><br>
+
+      <li>How do you target all elements with class "note"?<br>
+        A. #note { }<br>
+        B. &note { }<br>
+        C. .note { }<br>
+        D. *note { }
+      </li>
+    </ol>
+
+    <h3>✅ Answers:</h3>
+    <ul>
+      <li>1 → B. # (hash)</li>
+      <li>2 → B. Targets all elements</li>
+      <li>3 → C. .note { }</li>
+    </ul>
+  </div>
+
+
+
+
+  <div class="quiz">
+    <h2>🧪 Quiz: Test Your Understanding</h2>
+    <ol>
+      <li>Which of the following is a valid HEX color?<br>
+        A. #GGHHHH<br>
+        B. #123456<br>
+        C. rgb(255,255,255)<br>
+        D. color-pink
+      </li><br>
+
+      <li>What does the “A” stand for in RGBA?<br>
+        A. Alpha (opacity)<br>
+        B. Angle<br>
+        C. Average<br>
+        D. Addition
+      </li><br>
+
+      <li>Which value makes the RGBA color fully transparent?<br>
+        A. 1<br>
+        B. 0.5<br>
+        C. 0<br>
+        D. 255
+      </li>
+    </ol>
+
+    <h3>✅ Answers:</h3>
+    <ul>
+      <li>1 → B. #123456</li>
+      <li>2 → A. Alpha (opacity)</li>
+      <li>3 → C. 0</li>
+    </ul>
+  </div>
+
+
+
+  <div class="quiz">
+    <h2>🧪 Quiz: Test Your Understanding</h2>
+    <ol>
+      <li>Which property sets a background image?<br>
+        A. background-img<br>
+        B. background-image<br>
+        C. img-background<br>
+        D. background-src
+      </li><br>
+
+      <li>What does <code>background-repeat: repeat-x;</code> do?<br>
+        A. Repeats image vertically only<br>
+        B. Repeats image in both directions<br>
+        C. Repeats image horizontally only<br>
+        D. Does not repeat image
+      </li><br>
+
+      <li>What value of <code>background-attachment</code> keeps the background fixed while scrolling?<br>
+        A. scroll<br>
+        B. still<br>
+        C. fixed<br>
+        D. float
+      </li>
+    </ol>
+
+    <h3>✅ Answers:</h3>
+    <ul>
+      <li>1 → B. background-image</li>
+      <li>2 → C. Repeats image horizontally only</li>
+      <li>3 → C. fixed</li>
+    </ul>
+  </div>
+
+
+    <div class="quiz">
+    <h2>📝 Practice Quiz</h2>
+    <ol>
+      <li>Which property is used to make corners round?<br>
+        A. border-round<br>
+        B. border-style<br>
+        C. border-radius<br>
+        D. border-curve
+      </li><br>
+      <li>How many values can <code>border-style</code> accept at once?<br>
+        A. 2<br>
+        B. 4<br>
+        C. 3<br>
+        D. 1
+      </li><br>
+      <li>What is the shorthand for <code>border-width</code>, <code>border-style</code>, and <code>border-color</code> together?<br>
+        A. border-format<br>
+        B. border-summary<br>
+        C. border<br>
+        D. border-all
+      </li>
+    </ol>
+
+    <h3>✅ Answers:</h3>
+    <ul>
+      <li>1 → C. border-radius</li>
+      <li>2 → B. 4</li>
+      <li>3 → C. border</li>
+    </ul>
+  </div>
+
+
+  <!-- Add this inside your existing HTML content, replacing the previous quiz section -->
+
+<div class="quiz">
+  <h3>🧪 Quiz: Test Your Knowledge (Multiple Choice)</h3>
+  <form>
+    <p><strong>1. What is the difference between padding and margin?</strong></p>
+    <label><input type="radio" name="q1"> Padding is outside the border, margin is inside</label><br>
+    <label><input type="radio" name="q1"> Padding adds space inside the element, margin adds space outside</label><br>
+    <label><input type="radio" name="q1"> Both do the same thing</label>
+
+    <p><strong>2. Which part of the box model affects the background color?</strong></p>
+    <label><input type="radio" name="q2"> Margin only</label><br>
+    <label><input type="radio" name="q2"> Padding only</label><br>
+    <label><input type="radio" name="q2"> Padding and content</label><br>
+    <label><input type="radio" name="q2"> Border and margin</label>
+
+    <p><strong>3. Which property controls space between content and border?</strong></p>
+    <label><input type="radio" name="q3"> margin</label><br>
+    <label><input type="radio" name="q3"> outline</label><br>
+    <label><input type="radio" name="q3"> padding</label><br>
+    <label><input type="radio" name="q3"> border-spacing</label>
+
+    <p><strong>4. Which comes first in the box model (inside to outside)?</strong></p>
+    <label><input type="radio" name="q4"> Margin → Border → Padding → Content</label><br>
+    <label><input type="radio" name="q4"> Border → Padding → Margin → Content</label><br>
+    <label><input type="radio" name="q4"> Content → Padding → Border → Margin</label><br>
+    <label><input type="radio" name="q4"> Padding → Border → Content → Margin</label>
+
+    <br><br>
+    <button type="submit">Submit Quiz</button>
+  </form>
+</div>
+
+
+
+<h3>🧪 Quiz: Test Your Knowledge</h3>
+  <form>
+    <p><strong>1. What unit will make an element’s size relative to the viewport?</strong></p>
+    <label><input type="radio" name="q1"> px</label><br>
+    <label><input type="radio" name="q1"> %</label><br>
+    <label><input type="radio" name="q1"> em</label><br>
+    <label><input type="radio" name="q1"> vw</label> <!-- Correct -->
+
+    <p><strong>2. What does <code>max-width</code> do?</strong></p>
+    <label><input type="radio" name="q2"> Hides the element if too wide</label><br>
+    <label><input type="radio" name="q2"> Sets a fixed width</label><br>
+    <label><input type="radio" name="q2"> Prevents the element from exceeding a set width</label> <!-- Correct --><br>
+    <label><input type="radio" name="q2"> Stretches the element</label>
+
+    <p><strong>3. Which property ensures an element never becomes smaller than a certain size?</strong></p>
+    <label><input type="radio" name="q3"> width</label><br>
+    <label><input type="radio" name="q3"> min-width</label> <!-- Correct --><br>
+    <label><input type="radio" name="q3"> auto</label><br>
+    <label><input type="radio" name="q3"> padding</label>
+
+    <p><strong>4. What happens when you set <code>width: 100%</code> on a div inside a container?</strong></p>
+    <label><input type="radio" name="q4"> It ignores the container width</label><br>
+    <label><input type="radio" name="q4"> It expands beyond the page</label><br>
+    <label><input type="radio" name="q4"> It fills the entire container</label> <!-- Correct --><br>
+    <label><input type="radio" name="q4"> It crashes</label>
+
+    <br><br>
+    <button type="submit">Submit Quiz</button>
+  </form>
+
